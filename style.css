@@ -1,0 +1,854 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+/* surbhi agrawal*/
+
+header {
+    font-family: 'Raleway', sans-serif;
+    top: 0px;
+    left: 0;
+    background-color: hsl(217, 28%, 15%);
+
+}
+
+.logo-img {
+
+    width: 150px;
+}
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    background-position: center;
+    flex-direction: column;
+}
+
+
+nav {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+    justify-content: space-between;
+
+}
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 60px 60px;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+
+}
+a:hover {
+    color: #59bfcf;
+}
+.banner {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second-hero {
+    margin-top: 100px;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.img-2 {
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    margin-bottom: -40px;
+
+}
+
+#desktop-img {
+    width: 100%;
+    height: 90%;
+}
+
+
+#mobile-img {
+    display: none;
+
+}
+
+.word-con {
+    top: -40px;
+    width: 700px;
+    position: absolute;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.main-heading {
+    height: 100px;
+    width: 800px;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.para-p {
+    height: 150px;
+    width: 450px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.m-btn {
+    height: 150px;
+    text-align: center;
+
+}
+
+
+#header-btn {
+    text-decoration: none;
+    color: white;
+    background-color: #59bfcf;
+    border-radius: 50px;
+    padding: 12px 80px;
+    font-size: 1rem;
+}
+
+@media (max-width:400px) {
+
+    header {
+        width: 100%;
+    }
+
+    .hero {
+        width: 100%;
+    }
+
+    nav {
+
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 15px;
+        margin-top: 12px;
+
+    }
+
+    nav ul li {
+        padding: 7px 7px;
+
+    }
+
+
+    .logo-img {
+        width: 20%;
+    }
+
+
+    .banner {
+        margin-top: 20px;
+        width: 70%;
+        height: auto;
+    }
+
+    .second-hero {
+        width: 100%;
+
+    }
+
+    .banner img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .word-con {
+        width: 100%;
+
+    }
+
+    .main-heading {
+        width: 70%;
+        font-size: 60%;
+        margin-bottom: -45px;
+    }
+
+    .para-p {
+        width: 82%;
+        font-size: 14px;
+
+    }
+
+    .m-btn {
+        width: 90%;
+        margin-top: -40px;
+    }
+
+    #header-btn {
+        padding: 14px 60px;
+        font-size: 0.8rem;
+
+    }
+
+    #desktop-img {
+        display: none;
+
+    }
+
+    .img-2 {
+
+        height: 270px;
+    }
+
+    #mobile-img {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+}
+/* surbhi agrawal */
+/* Ankur css*/
+#testimonial {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: hsl(218, 28%, 13%);
+
+}
+
+.wraper_testimonials {
+    width: 80%;
+    height: auto;
+    position: relative;
+
+}
+.testimonial_container {
+    width: 99%;
+    height: auto;
+    margin: 10px;
+
+    position: absolute;
+    left: 0;
+    top: 25px;
+
+}
+
+.testimonials_cover {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 40px;
+    color: #b0b1b8;
+}
+
+.testimonials_card {
+
+    width: 33%;
+    height: auto;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    gap: 10px;
+    background-color: hsl(219, 30%, 18%);
+}
+
+.testimonial_user_info {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    width: 100%;
+    height: auto;
+}
+
+.testimonial_user_info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.testimonial_user_details h4 {
+    color: #fff;
+}
+
+/* Shashank css */
+.fmain {
+    position: relative;
+    height: 55vh;
+    width: 100vw;
+    background-color: hsl(216, 53%, 9%);
+    overflow: hidden;
+    margin-top: -17 px;
+}
+
+.contain {
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    display: flex;
+    flex-direction: column;
+}
+
+.logoimg {
+    height: 40px;
+}
+
+.foo-content {
+    width: 100vw;
+    height: 30px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 25% 20% 10% 10% 20%;
+}
+
+#location {
+    display: flex;
+}
+
+.loc img {
+    height: 13px;
+    margin-top: 3px;
+}
+
+.loc-content {
+    color: white;
+    margin-left: 0.9375rem;
+    width: 80%;
+
+}
+
+#mail {
+    display: flex;
+    flex-direction: column;
+}
+
+.phone,
+.gmail {
+    display: flex;
+}
+
+.phone-icon img,
+.mail-icon img {
+    height: 0.9375rem;
+}
+
+.phone-no {
+    color: white;
+    padding-left: 17px;
+}
+
+.mail-no {
+    color: white;
+    padding-left: 15px;
+}
+
+.gmail {
+    margin-top: 0.9375rem;
+}
+
+#about-us {
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#about-us li,
+#contact-us li {
+    list-style: none;
+    margin-bottom: 0.75rem;
+}
+
+#about-us ul,
+#contact-us ul {
+    margin-top: -0.3125rem;
+}
+
+#contact-us {
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.ficon {
+    color: white;
+}
+
+.circle {
+    border: 1px solid white;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#fti {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: -0.3125rem;
+}
+
+/* SONU CSS*/
+
+#sonu {
+    height: 400px;
+    width: 100vw;
+    color: white;
+    position: relative;
+    font-family: sans-serif;
+
+}
+
+.f-box {
+    width: 100vw;
+    height: 260px;
+    background-color: hsl(218, 28%, 13%);
+}
+
+.s-box {
+    width: 100vw;
+    height: 140px;
+    background-color: hsl(216, 53%, 9%);
+}
+
+.access-box {
+    width: 60vw;
+    height: 260px;
+    position: absolute;
+    top: 135px;
+    left: 20%;
+    background-color: hsl(217, 28%, 15%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 80px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px rgb(13, 13, 13);
+}
+
+#access-header {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.access-inputContainer {
+    margin-top: 20px;
+}
+
+#email-input {
+    width: 400px;
+    height: 40px;
+    border-radius: 50px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+#getStarted {
+    width: 200px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(48, 215, 160);
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+#getStarted:hover {
+    background-color: rgb(64, 237, 179);
+}
+
+
+/* Karishma CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.project {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: hsl(218, 28%, 13%);
+}
+
+.sem {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.para {
+
+    width: 40%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    margin: 10px;
+    padding: 10px;
+}
+
+.heading-h1 {
+    margin: 6px;
+    padding: 6px;
+    font-size: 34px;
+}
+
+.para-1 {
+    margin: 6px;
+    padding: 6px;
+    font-size: 14px;
+}
+
+.para-2 {
+    margin: 6px;
+    padding: 6px;
+    font-size: 14px;
+}
+
+.para-3 {
+    margin: 6px;
+    padding: 6px;
+    font-size: 14px;
+}
+
+.stay-link {
+    margin: 5px;
+    padding: 5px;
+    font-size: 14px;
+    color: rgb(142, 225, 225);
+    text-decoration: none;
+    border-bottom: 2px solid rgb(142, 225, 225);
+}
+
+.stay-link:hover {
+    color: white;
+    border-color: white;
+}
+
+/* Karishma CSS */
+
+
+/* Shashank css */
+/* SHASHANK RESPONSIVENESS */
+
+@media(max-width: 1000px) {
+    footer {
+        font-size: 15px;
+    }
+
+    .foo-content {
+        grid-template-columns: 23% 23% 12% 12% 15%;
+    }
+}
+
+@media(max-width: 750px) {
+    .fmain {
+        height: 960px;
+        width: 100vw;
+        outline: none;
+    }
+
+    .contain {
+        position: initial;
+
+    }
+
+    .foo-content {
+        display: flex;
+        flex-direction: column;
+        font-size: 25px;
+    }
+
+    .logoimg {
+        height: 50px;
+    }
+
+    #location {
+        margin-top: 20px;
+    }
+
+    #mail {
+        margin-top: 30px;
+    }
+
+    #about-us {
+        margin-top: 60px;
+    }
+
+    #contact-us {
+        margin-top: 60px;
+    }
+
+    .contain {
+        left: 0px;
+    }
+
+    .foo-content>div {
+        position: relative;
+        left: 11%;
+    }
+
+    #fti {
+        left: 0px;
+
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .fyloicn {
+        position: relative;
+        left: 11%;
+    }
+
+    .circle {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/* SHASHANK RESPONSIVENESS */
+/* Ankur */
+@media(max-width: 400px) {
+
+    /* karishma media */
+    .project {
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        gap: 0;
+    }
+
+    .sem img {
+        width: 80%;
+    }
+
+    .sem {
+        width: 100%;
+        justify-content: center;
+        padding: 0px;
+        margin: 0px;
+
+    }
+    .para {
+        width: 100%;
+        margin-top: -50px;
+    }
+    .heading-h1 {
+        font-size: 16px;
+    }
+    .para-1 {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+
+    /* karishma media */
+    #testimonial {
+        height: 730px;
+        align-items: flex-start;
+    }
+    .testimonials_cover {
+        flex-direction: column;
+    }
+    .testimonials_card {
+        width: 100%;
+    }
+    /* SONU CSS */
+    #sonu {
+        height: 500px;
+    }
+    .f-box {
+        width: 100vw;
+        height: 260px;
+        background-color: hsl(218, 28%, 13%);
+    }
+    .s-box {
+        width: 100vw;
+        height: 240px;
+        background-color: hsl(216, 53%, 9%);
+    }
+    .access-box {
+        width: 90vw;
+        height: 360px;
+        left: 5%;
+        top: 80px;
+        padding: 20px 10px;
+    }
+    #access-para {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    #access-header {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .access-inputContainer {
+        margin-top: 20px;
+    }
+    #email-input {
+        width: 250px;
+        height: 40px;
+        border-radius: 50px;
+        padding-left: 20px;
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    #getStarted {
+        width: 250px;
+        text-decoration: none;
+        color: white;
+        background-color: rgb(48, 215, 160);
+        padding: 10px 52px;
+        border-radius: 50px;
+        margin-top: 50px;
+    }
+
+}
+
+/* varsha */
+.fylo-contain {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(218, 28%, 13%);
+}
+.fylo-Main {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+}
+.access-security {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+}
+.collab-store {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    font-size: 14px;
+}
+.Access-File {
+    width: 45%;
+    height: 250px;
+    margin: 12px;
+    padding: 12px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+}
+.fylo-h1 {
+    width: 270px;
+    font-size: 15px;
+}
+.fylo-para-2 {
+    width: 330px;
+    padding: 7px;
+    font-size: 14px;
+}
+.img1 {
+    padding: 15px;
+    width: 101px;
+}
+@media(max-width: 525px) {
+    .fylo-contain {
+        height: 1000px;
+        width: 100%;
+        margin-top: -13px;
+    }
+    .fylo-Main {
+        height: 100%;
+        width: 100%;
+        margin-bottom: 82px;
+    }
+    .access-security {
+        height: 90%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 20px;
+        padding: 10px;
+        margin: 10px;
+    }
+    .collab-store {
+        height: 80%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 20px;
+        gap: 8px;
+    }
+    .Access-File {
+        height: 100%;
+        width: 100%;
+    }
+    .fylo-para-2 {
+        padding: 7px;
+        width: 320px;
+    }
+    .fylo-h1 {
+        font-size: 14px;
+    }
+    .img1 {
+        padding: 25px;
+    }
+}
+
+/* ====== varsha ====== */
